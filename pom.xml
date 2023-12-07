@@ -11,7 +11,7 @@
 	<groupId>tn.esprit.spring.services</groupId>
 	<artifactId>timesheet-devops</artifactId>
 	<version>0.0.3-SNAPSHOT</version>
-
+         <packaging>jar</packaging>
 	<name>timesheet-devops</name>
 	<description>tp-spring-jsf-crud</description>
 	<properties>
@@ -21,7 +21,9 @@
 		<sonar.password>@Meni123</sonar.password>
 		<nexus.login>admin</nexus.login>
 		<nexus.password>admin 123</nexus.password>
-
+            <maven.compiler.source>1.8</maven.compiler.source>
+         <maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -33,6 +35,18 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+                 <dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>	
 
 
 
