@@ -20,8 +20,9 @@
 		<sonar.login>admin</sonar.login>
 		<sonar.password>@Meni123</sonar.password>
 		<nexus.login>admin</nexus.login>
-		<nexus.password>admin 123</nexus.password>
-
+		<nexus.password>admin123</nexus.password>
+<maven.compiler.source>1.8</maven.compiler.source>
+<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
