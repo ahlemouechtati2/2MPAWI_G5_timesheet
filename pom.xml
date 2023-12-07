@@ -11,7 +11,11 @@
 	<groupId>tn.esprit.spring.services</groupId>
 	<artifactId>timesheet-devops</artifactId>
 	<version>0.0.3-SNAPSHOT</version>
+<<<<<<< HEAD
 <packaging>jar</packaging>
+=======
+     <packaging>jar</packaging>
+>>>>>>> 74ab2859aeb3a8666dda9eb075be658b59f502d0
 	<name>timesheet-devops</name>
 	<description>tp-spring-jsf-crud</description>
 	<properties>
@@ -53,6 +57,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+                <dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
 		</dependency>
 
 
